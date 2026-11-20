@@ -35,7 +35,6 @@ public class CustomizablePlatformerMovement : MonoBehaviour
     private bool wasGrounded;
     private bool isGrounded;
     public InputAction inputAction;
-    public Animator animator;
 
     [Header("Graphics")]
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -90,11 +89,6 @@ public class CustomizablePlatformerMovement : MonoBehaviour
         velocity.x = moveInput.x * maxSpeed;
 
         animator.SetBool("OnMove", Mathf.Abs(moveInput.x) > 0.01f);
-
-        if (InputAction.FindAction("Attack").IsPressed())
-        {
-            animator.SetBool("isAttacking", true);
-        }
         
         
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
