@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 140665070}
   - component: {fileID: 140665069}
   m_Layer: 0
-  m_Name: NyHimmel
+  m_Name: Bakgrund
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -183,7 +183,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: d806e7a602aa8754580994768865e88e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1077,7 +1077,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
+  - {fileID: 1646726248}
   - {fileID: 140665070}
   - {fileID: 233986559}
-  - {fileID: 1646726248}
   - {fileID: 776039978}
