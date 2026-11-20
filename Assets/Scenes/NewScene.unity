@@ -1232,6 +1232,8 @@ MonoBehaviour:
   textBox: {fileID: 1358880286}
   nextButton: {fileID: 116043921}
   dialogue:
+  - 'Scarecrow: My name''s Scarecrow'
+  - 'Pig: Okay'
   - 'Scarecrow: Change the music please'
   - 'Pig: I guess I can do that'
   - 'Scarecrow: You have 10 seconds'
